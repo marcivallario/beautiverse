@@ -1,0 +1,77 @@
+* {
+  /* Reset browser's padding and margin */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("./src/fonts/overpass/overpass-regular.otf") format("otf"),
+}
+
+body {
+    font-family: "Overpass";
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav > img {
+    width: 300px;
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search-field {
+    width: 300px;
+    padding: 7px 35px 7px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+}
+
+#search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -2rem;
+}
+
+#search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+div#results {
+    display: flex;
+    flex-direction: column;
+}
+
+div#favorites {
+    position: absolute;
+    background-color:rgba(124,177,213,.5);
+}
+
+.makeup-details {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    margin: 10% 10% 10% 30%;
+    border: 2px solid rgba(124,177,213,.5);
+}
+
+.makeup-image {
+    width: 40%;
+    margin-right: 3rem;
+}

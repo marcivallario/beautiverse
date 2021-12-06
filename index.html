@@ -4,14 +4,28 @@
 <head>
     <title>Beautiverse</title>
     <link rel='stylesheet' type='text/css' href='styles.css' />
+    <link rel="shortcut icon" type="image/jpg" href="./src/beautiverse-favicon.png" />
     <script defer type='text/javascript' src='index.js'></script>
+    <script defer src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
 </head>
 
 <body>
     <header>
-        <h1>Beautiverse</h1>
         <nav>
-            <p>Favorite's List
+            <img src="./src/beautiverse-logo.png" alt="Beautiverse-logo" title="Beautiverse">
+            <form id="search-bar">
+                <input id="search-field" type="text" placeholder="Search Brands..">
+                <button id="search-button" type="submit">
+                    <img src="./src/search.png" alt="Search">
+                </button>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <div id="favorites">
+            <h2>My Favorites</h2>
             <ul id='favorites-list'>
                 <li>Favorite 1
                     <button>Delete</button>
@@ -29,27 +43,21 @@
                     <button>Delete</button>
                 </li>
             </ul>
-            </p>
-        </nav>
-    </header>
-
-    <main>
-        <div class="topnav">
-            <input type="text" placeholder="Search..">
-            <button>Search</button>
         </div>
-        <div class='makeup-details'>
-            <h2 id='makeup-name'>Make Up Name Goes Here</h2>
-            <img id='makeup-image' alt='product image goes here' src='placeholder.jpg' />
-            <button>Favorite</button>
-            <p>Product Description Below
-            <ul em id='product-description'>
-                <li>description point 1</li>
-                <li>description point 2</li>
-                <li>description point 3</li>
-                <li>description point 4</li>
-            </ul>
-            </p>
+        <div id=results>
+            <div class='makeup-details'>
+                <img class='makeup-image' alt='product image goes here' src='./src/loading-placeholder.gif' />
+                <div class='makeup-text'>
+                    <h2 class='makeup-name'>Make Up Name Goes Here</h2>
+                    <span class="iconify" data-icon="bi:bookmark-heart"></span>
+                    <ul em class='product-description'>Product Description Below
+                        <li>description point 1</li>
+                        <li>description point 2</li>
+                        <li>description point 3</li>
+                        <li>description point 4</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </main>
 </body>
