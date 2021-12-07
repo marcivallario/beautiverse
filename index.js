@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(resp => resp.json())
     .then(data => {
         featuredProduct = data[Math.floor(Math.random() * data.length)]
-        console.log(featuredProduct)
         results.innerHTML = '';
         buildProductCard(featuredProduct);
     })
