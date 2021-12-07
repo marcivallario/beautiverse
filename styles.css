@@ -1,10 +1,12 @@
-* {
-  /* Reset browser's padding and margin */
+/* Reset browser's padding and margin */
+* 
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
 }
 
+/* Universal Styles */
 @font-face {
   font-family: "Overpass";
   src: url("./src/fonts/overpass/overpass-regular.otf") format("otf"),
@@ -14,6 +16,11 @@ body {
     font-family: "Overpass";
 }
 
+svg {
+    cursor: pointer; 
+}
+
+/* Nav Header*/
 nav {
     background-color: black;
     display: flex;
@@ -26,6 +33,7 @@ nav > img {
     width: 300px;
 }
 
+/* Search Bar */
 #search-bar {
     display: flex;
     flex-direction: row;
@@ -53,14 +61,10 @@ nav > img {
     object-fit: contain;
 }
 
+/* Main */
 div#results {
     display: flex;
     flex-direction: column;
-}
-
-div#favorites {
-    position: absolute;
-    background-color:rgba(124,177,213,.5);
 }
 
 .makeup-details {
@@ -71,7 +75,37 @@ div#favorites {
     border: 2px solid rgba(124,177,213,.5);
 }
 
+.makeup-text {
+    margin-left: 1rem;
+}
+
+.product-description {
+    list-style-type: "- ";
+    list-style-position: inside;
+}
+
 .makeup-image {
     width: 40%;
-    margin-right: 3rem;
+    margin: 0 auto;
 }
+
+/* Favorites List */
+
+div#favorites {
+    position: fixed;
+    background-color:rgba(124,177,213,.5);
+    top: 74px;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 20px 20px 20px 40px;
+    transition: all 0.5s ease;
+}
+
+#favorites-list {
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
