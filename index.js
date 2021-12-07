@@ -17,7 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fetch('http://localhost:3000/favorites')
     .then(resp => resp.json())
-    .then(favoritesListData => renderFavoritesList(favoritesListData))
+    .then(favoritesListData => {
+        renderFavoritesList(favoritesListData)
+    })
 
     form.addEventListener('submit', getSearchResults)
 })
@@ -33,7 +35,7 @@ function buildProductCard(product) {
         <img class='makeup-image' src='${product.api_featured_image}' />
         <div class='makeup-text'>
             <h2 class='makeup-name'>${product.name}</h2>
-            <button class="favorite-button">Favorite</button>
+            <button class="favorite-button" data-product-id="${product.id}">Favorite</button>
             <p>${product.description}</p>
             <ul em class='product-description'>
             <br>
@@ -45,7 +47,7 @@ function buildProductCard(product) {
         </div>
     `
     results.append(card);
-    // document.querySelector('.favorite-button').addEventListener('click', addToFavorites);
+    document.querySelector('.favorite-button').addEventListener('click', handleAddFavorite);
 }
 
 function getSearchResults(e) {
@@ -71,20 +73,26 @@ function loadSearchResults(productArray) {
     productArray.forEach(product => buildProductCard(product))
 }
 
-// function addToFavorites(product) {
-    
-//     fetch('http://localhost:3000', {
-//         method: 'POST',
-//         headers: {
-//             'Content-Type': 'application/json'
-//         },
-//         body: JSON.stringify(product)
-//     })
-//     // pass product info into this function
-//     // send fetch POST request to db.json with this information
-//     // run renderfavoriteslist function (that has helper of renderfavoriteditem)
+function handleAddFavorite(event) {
+    let chosenProduct = productData.find(product => parseInt(product.id) === parseInt(event.target.dataset.productId));
+    let liList = Array.from(favoritesList.querySelectorAll('li'));
+    if (!(liList.find(li => parseInt(li.dataset.productId) === chosenProduct.id))) {
+        addToFavorites(chosenProduct);
+        event.target.disabled = true;
+        event.target.textContent = "Added to Favorites";
+    }
+}
 
-// }
+function addToFavorites(product) {
+    fetch('http://localhost:3000/favorites', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(product)
+    })
+    .then(renderFavorite(product))
+}
 
 function renderFavoritesList(favoritesListArr) {
     favoritesList.innerHTML = '';
@@ -92,7 +100,13 @@ function renderFavoritesList(favoritesListArr) {
 }
 
 function renderFavorite(favorite) {
-    let li = document.createElement('li');
+    const existingLi = document.querySelector(
+        `#favorites-list li[data-product-id="${favorite.id}"]`
+    )
+    let li = existingLi || document.createElement('li');
     li.textContent = favorite.name;
-    favoritesList.append(li);
+    li.dataset.productId = favorite.id;
+    if (!existingLi) {
+        favoritesList.append(li);
+    }
 }
