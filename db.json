@@ -64,98 +64,6 @@
       "product_colors": []
     },
     {
-      "id": 990,
-      "brand": "nyx",
-      "name": "Boudoir Mascara Collection",
-      "price": "6.0",
-      "price_sign": "$",
-      "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwda9f6cec/ProductImages/Eyes/Boudoir_Mascara_Collection/boudoirmascaracollection_main.jpg.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/boudoir-mascara-collection/NYX_060.html?cgid=mascara",
-      "website_link": "https://www.nyxcosmetics.com",
-      "description": "Every powder room should have our luxurious Boudoir Mascara Collection available in 7 elite formulas. Whether you want to darken, amp up the volume, or lengthen your lashes - we have a mascara that meets all your needs.",
-      "rating": null,
-      "category": null,
-      "product_type": "mascara",
-      "tag_list": [],
-      "created_at": "2017-12-24T02:33:00.623Z",
-      "updated_at": "2017-12-24T02:33:01.097Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/990.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/990/original/open-uri20171224-4-1xdrjhl?1514082780",
-      "product_colors": [
-        {
-          "hex_value": "#131315",
-          "colour_name": "Le Frou Frou"
-        },
-        {
-          "hex_value": "#232323",
-          "colour_name": "Pin-Up Tease"
-        },
-        {
-          "hex_value": "#0D0D0D",
-          "colour_name": "Provocateur"
-        },
-        {
-          "hex_value": "#141414",
-          "colour_name": "Faux Lashes"
-        },
-        {
-          "hex_value": "#151515",
-          "colour_name": "Le Chick Flick"
-        },
-        {
-          "hex_value": "#2B2B2B",
-          "colour_name": "La Amoureux"
-        },
-        {
-          "hex_value": "#121212",
-          "colour_name": "Za Za Zu"
-        }
-      ]
-    },
-    {
-      "id": 992,
-      "brand": "nyx",
-      "name": "The Skinny Mascara",
-      "price": "7.0",
-      "price_sign": "$",
-      "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwcb91e11f/ProductImages/Eyes/The_Skinny_Mascara/theskinnymascara_main.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/the-skinny-mascara/NYX_183.html?cgid=mascara",
-      "website_link": "https://www.nyxcosmetics.com",
-      "description": "Our ultra-skinny mascara brush is perfect for coating hard to reach lashes from root to tipâ€”even along the bottom lash line! Finally the smallest, thinnest lashes can get extra special attention too. The water resistant formula and micro brush work together to create the appearance of long beautifully defined lashes.",
-      "rating": null,
-      "category": null,
-      "product_type": "mascara",
-      "tag_list": [],
-      "created_at": "2017-12-24T02:33:02.793Z",
-      "updated_at": "2017-12-24T02:33:04.446Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/992.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/992/original/data?1514082782",
-      "product_colors": []
-    },
-    {
-      "id": 991,
-      "brand": "nyx",
-      "name": "Worth the Hype Volumizing & Lengthening Mascara",
-      "price": "8.0",
-      "price_sign": "$",
-      "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb654afff/ProductImages/2018/Eyes/Worth_The_Hype_Volumizing_Mascara/800897140250_worththehypevolumizingmascara_main.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/worth-the-hype-volumizing-lengthening-mascara/NYX_590.html?cgid=mascara",
-      "website_link": "https://www.nyxcosmetics.com",
-      "description": "Take our word for it: if you want your lashes to look darker, fuller and lethally gorgeous all day long, then our new Worth the Hype Volumizing & Lengthening Mascara is your jam. A breeze to apply and comfortable to wear, this buildable formula actually does what it promises, making it “worth the hype” in every which way. It also features a brush that tapers at the tip, so you can brush, build, and lengthen even the littlest baby lashes at the inner corners of your eyes.",
-      "rating": null,
-      "category": null,
-      "product_type": "mascara",
-      "tag_list": [],
-      "created_at": "2017-12-24T02:33:02.251Z",
-      "updated_at": "2017-12-24T02:33:02.648Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/991.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/991/original/data?1514082782",
-      "product_colors": []
-    },
-    {
       "id": 979,
       "brand": "nyx",
       "name": "Eyebrow Powder Pencil",
@@ -210,6 +118,195 @@
         {
           "hex_value": "#E1E1E1",
           "colour_name": "Black"
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "brand": "pure anada",
+      "name": "Pure Anada Pressed Mineral Eye Color Pan",
+      "price": "8.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/9b489f80495f5d059d0f49ef38c36664_ra,w158,h184_pa,w158,h184.jpeg",
+      "product_link": "https://well.ca/products/pure-anada-pressed-mineral-eye-color_83502.html",
+      "website_link": "https://well.ca",
+      "description": "Pure Anada is pleased to bring you a lovely selection of convenient pressed mineral colors!   You’ll love the silky texture and longevity of these very wearable shades.Mineral pigments and organic Jojoba are pressed together to create a natural makeup product. You can have confidence that you are making a beautiful, healthy choice!Pure Anada pressed colors are designed to be inserted into customizable magnetic compacts like the Pure Ananda Reusable Magnetic Compact. Design your own palette! What look do you go for: the natural bronzed babe, tropical brights, or classic beauty? Try all three with this get the look with natural makeup piece found on our blog, The Well! Shadow Finishes: Demi-Matte shadows are a combination of opaque matte minerals and luminous satin mica.  This provides both true color and a light-reflecting finish.Matte shadows are soft, silky shadows that do not exude any sheen whatsoever.Shades: Ingredients: Mica (CI 77019), Iron Oxides (CI 77492, CI 77499) Calcium Carbonate, Caprylic Triglyceride *Simmondsia Chinensis (Jojoba seed oil) Ultramarines (CI 77007), Titanium Dioxide (CI 77891) * Certified Organic IngredientVegan, Gluten Free, Non-GMO, Dairy Free, Peanut Free, Natural",
+      "rating": 4.5,
+      "category": null,
+      "product_type": "eyeshadow",
+      "tag_list": [
+        "Natural",
+        "Vegan",
+        "Gluten Free",
+        "Non-GMO",
+        "Canadian"
+      ],
+      "created_at": "2016-10-01T18:30:03.877Z",
+      "updated_at": "2017-12-23T21:08:11.558Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/275.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/275/original/data?1514063291",
+      "product_colors": [
+        {
+          "hex_value": "#533C5D",
+          "colour_name": "Blackberry (Demi-Matte) "
+        },
+        {
+          "hex_value": "#8CA7B5",
+          "colour_name": "Breeze (Demi-Matte) "
+        },
+        {
+          "hex_value": "#CC9B7B",
+          "colour_name": "Burlap (Matte)  "
+        },
+        {
+          "hex_value": "#ecc2c6",
+          "colour_name": "Cameo (Demi-Matte Light Pink White) "
+        },
+        {
+          "hex_value": "#9786b0",
+          "colour_name": "Crocus (Demi-Matte Lilac Purple "
+        },
+        {
+          "hex_value": "#ac9689",
+          "colour_name": "Dove\t(Matte Medium Grey) "
+        },
+        {
+          "hex_value": "#fcdda6",
+          "colour_name": "Ecru\t(Matte Cream) "
+        },
+        {
+          "hex_value": "#A06C69",
+          "colour_name": "Espresso (Demi-Matte) "
+        },
+        {
+          "hex_value": "#e38597",
+          "colour_name": "Freesia (Demi-Matte Medium Pink) "
+        },
+        {
+          "hex_value": "#A6777A",
+          "colour_name": "Grape (Demi-Matte) "
+        },
+        {
+          "hex_value": "#FBCFB2",
+          "colour_name": "Luna (Demi-Matte) "
+        },
+        {
+          "hex_value": "#8A9C86",
+          "colour_name": "Meadow (Demi-Matte) "
+        },
+        {
+          "hex_value": "#CEB2A0",
+          "colour_name": "Mirage (Demi-Matte) "
+        },
+        {
+          "hex_value": "#EFB49E",
+          "colour_name": "Nectar (Demi-Matte) "
+        },
+        {
+          "hex_value": "#2f2a27",
+          "colour_name": "Onyx (Demi-Matte Black) "
+        },
+        {
+          "hex_value": "#9D837E",
+          "colour_name": "Pewter (Demi-Matte) "
+        },
+        {
+          "hex_value": "#6f9087",
+          "colour_name": "Reef (Demi-Matte Turquoise) "
+        },
+        {
+          "hex_value": "#C89987",
+          "colour_name": "Sahara (Demi-Matte) "
+        },
+        {
+          "hex_value": "#BAB4B6",
+          "colour_name": "Sterling (Demi-Matte) "
+        },
+        {
+          "hex_value": "#F9DDCB",
+          "colour_name": "Whisper (Demi-Matte) "
+        }
+      ]
+    },
+    {
+      "id": 495,
+      "brand": "maybelline",
+      "name": "Maybelline Face Studio Master Hi-Light Light Booster Bronzer",
+      "price": "14.99",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/991799d3e70b8856686979f8ff6dcfe0_ra,w158,h184_pa,w158,h184.png",
+      "product_link": "https://well.ca/products/maybelline-face-studio-master_88837.html",
+      "website_link": "https://well.ca",
+      "description": "Maybelline Face Studio Master Hi-Light Light Boosting bronzer formula has an expert \nbalance of shade + shimmer illuminator for natural glow. Skin goes \nsoft-lit with zero glitz.\n\n\t\tFor Best Results: Brush over all shades in palette and gently sweep over \ncheekbones, brow bones, and temples, or anywhere light naturally touches\n the face.\n\n\t\t\n\t\n\n                    ",
+      "rating": 5,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-01T18:36:15.012Z",
+      "updated_at": "2017-12-23T21:08:50.624Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/495.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/495/original/open-uri20171223-4-9hrto4?1514063330",
+      "product_colors": []
+    },
+    {
+      "id": 486,
+      "brand": "covergirl",
+      "name": "CoverGirl Clean Glow Bronzer",
+      "price": "8.99",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/4e90929a9c24a51c3db3988b205f3b43_ra,w158,h184_pa,w158,h184.jpeg",
+      "product_link": "https://well.ca/products/covergirl-clean-glow-bronzer_78622.html",
+      "website_link": "https://well.ca",
+      "description": "Flaunt the coveted beach-bronze glow in one simple step. This versatile \n3-in-1 multi-shade compact lets you customize your color to create a \nradiant effect. Use just one color or all three!Features: Beautiful bronze glow in just one stepBlendable, multi-shade compactClean and natural lookHow to Apply: Dip powder brush in bronzer and tap off any excess.\nSweep bronzer on your cheeks and temples.\nUsing a lighter touch, sweep bronzer where the sun naturally hits your face, including your nose, chin, and forehead.\n                            ",
+      "rating": 5,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-01T18:36:01.504Z",
+      "updated_at": "2017-12-23T21:08:49.712Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/486.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/486/original/data?1514063329",
+      "product_colors": [
+        {
+          "hex_value": "#A9745E",
+          "colour_name": null
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "brand": "glossier",
+      "name": "Haloscope",
+      "price": "27.0",
+      "price_sign": "$",
+      "currency": "USD",
+      "image_link": "https://static-assets.glossier.com/production/spree/images/attachments/000/001/109/portrait_normal/Haloscope_01-compressor.jpg?1498613775",
+      "product_link": "https://www.glossier.com/products/haloscope",
+      "website_link": "https://www.glossier.com",
+      "description": "Skincare + makeup = Haloscope, the galaxy’s first dew effect highlighter. It’s a dual-delivery formula: the outer halo is infused with genuine crystal extracts for all-day enlightenment, with a solid oil core of vitamin-rich moisturizers for a hydrated, dewy finish. Expect an otherworldly sheen that’s never dry, never glittery. Comes in…",
+      "rating": null,
+      "category": "highlighter",
+      "product_type": "foundation",
+      "tag_list": [],
+      "created_at": "2017-12-27T02:44:12.059Z",
+      "updated_at": "2017-12-27T02:58:27.019Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1001.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/001/original/open-uri20171227-4-1das33x?1514342770",
+      "product_colors": [
+        {
+          "hex_value": "#D19668",
+          "colour_name": "Topaz"
+        },
+        {
+          "hex_value": "#FBE9E1",
+          "colour_name": "Quartz"
+        },
+        {
+          "hex_value": "#F0EDEB",
+          "colour_name": "Moonstone"
         }
       ]
     }

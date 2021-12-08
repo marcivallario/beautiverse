@@ -16,11 +16,18 @@ document.addEventListener('DOMContentLoaded', () => {
         buildProductCard(featuredProduct);
         
         fetch('http://localhost:3000/favorites')
-            .then(resp => resp.json())
-            .then(favoritesListData => {
-                favoritesData = favoritesListData;
-                renderFavoritesList(favoritesData);
-            })
+        .then(resp => resp.json())
+        .then(favoritesListData => {
+            favoritesData = favoritesListData;
+            renderFavoritesList(favoritesData);
+        })
+        
+        form.innerHTML = `
+            <input id="search-field" type="text" placeholder="Search Brands..">
+            <button id="search-button" type="submit">
+                <img src="./src/search.png" alt="Search">
+            </button>
+        `
     })
 
     form.addEventListener('submit', getSearchResults)
