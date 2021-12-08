@@ -34,7 +34,9 @@ function buildProductCard(product) {
     shadeNames = shadeNames.join(', ');
     card.className = 'makeup-details';
     card.innerHTML = `
-        <img class='makeup-image' src='${product.api_featured_image}' />
+        <div class='image-container'>
+            <img class='makeup-image' src='${product.api_featured_image}' />
+        </div>
         <div class='makeup-text'>
             <h2 class='makeup-name'>${product.name}</h2>
             <button class="favorite-button" data-product-id="${product.id}">Favorite</button>

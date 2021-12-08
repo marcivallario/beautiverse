@@ -14,16 +14,24 @@
 
 body {
     font-family: "Overpass";
+    height: 100%;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 svg {
     cursor: pointer; 
 }
 
-/* Nav Header*/
+/* Nav Bar */
 header {
     position: relative;
     z-index: 2;
+    width: 100%;
 }
 
 nav {
@@ -31,15 +39,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    
+    padding: 1.5em;
 }
 
-nav > img {
+nav img {
     width: 300px;
 }
 
-/* Search Bar */
 #search-bar {
     display: flex;
     flex-direction: row;
@@ -65,20 +71,75 @@ nav > img {
     width: 20px;
     height: 20px;
     object-fit: contain;
+    cursor: pointer;
 }
 
-/* Main */
-div#results {
+main {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+/* Favorites List */
+#sidebar {
+    background-color:rgba(124,177,213,.5);
+    min-width: 300px;
+    max-width: 300px;
+    transition: all 0.5s ease;
+    padding: 2em;
+    height: 100%;
+}
+
+#favorites-list {
+    margin: auto 0;
+    list-style-type: none;
+}
+
+#favorites-list li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+#favorites h2 {
+    margin-bottom: .5em;
+}
+
+.delete-button {
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Results */
+
+#results {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    min-width: 600px;
+    max-width: 1000px;
+    min-height: 400px;
 }
 
 .makeup-details {
     display: flex;
     align-items: center;
-    padding: 5%;
-    margin: 10% 10% 10% 30%;
+    justify-content: center;
+    padding: 2em;
+    margin: 10%;
     border: 2px solid rgba(124,177,213,.5);
+}
+
+.image-container {
+    min-width: 30%;
+}
+
+.makeup-image {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .makeup-text {
@@ -90,42 +151,10 @@ div#results {
     list-style-position: inside;
 }
 
-.makeup-image {
-    width: 40%;
-    margin: 0 auto;
-}
-
-/* Favorites List */
-
-div#favorites {
-    position: fixed;
-    background-color:rgba(124,177,213,.5);
-    top: 75px;
-    left: 0;
-    height: 100%;
-    width: 250px;
-    padding: 20px 20px 20px 40px;
-    transition: all 0.5s ease;
-}
-
-#favorites-list {
-    list-style-type: none;
-}
-
-#favorites-list li {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.favorite-button {
     cursor: pointer;
 }
 
-#search-button img {
-    cursor: pointer;
-}
-
-.delete-button {
-    cursor: pointer;
-    margin-right: 10px;
-    background-color: #000;
-    color: #fff;
+#results h1 {
+    margin: auto auto;
 }
