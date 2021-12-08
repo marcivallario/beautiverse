@@ -109,8 +109,25 @@ main {
 .delete-button {
     cursor: pointer;
     margin-right: 10px;
+    color: #000;
+    box-shadow: none;
+    border: 1px solid #000;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 3px;
+}
+
+.delete-button:hover {
     background-color: #000;
     color: #fff;
+    border: 1px solid #000;
+}
+
+.delete-button:active {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
 }
 
 /* Results */
@@ -153,8 +170,36 @@ main {
 
 .favorite-button {
     cursor: pointer;
+    padding: 1em;
+    text-transform: uppercase;
+    font-size: .5em;
+    letter-spacing: .25em;
+    border: 0;
+    background: rgba(124,177,213,.5);
+    color: #000;
+    box-shadow: none;
+    border-radius: 0px;
+    font-weight: bold;
+    margin: 3em 0 1em 0;
+}
+
+.favorite-button:disabled {
+    cursor: pointer;
+    padding: 1em;
+    text-transform: uppercase;
+    font-size: .5em;
+    letter-spacing: .25em;
+    border: 0;
+    background: lightgrey;
+    color: grey;
+    box-shadow: none;
+    border-radius: 0px;
+    font-weight: bold;
+    margin: 3em 0 1em 0;
+    font-style: italic;
 }
 
 #results h1 {
     margin: auto auto;
+    font-weight: bold;
 }
