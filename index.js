@@ -116,6 +116,10 @@ function renderFavorite(favorite) {
         favoritesList.append(li);
         let deleteButtons = document.querySelectorAll('.delete-button')
         deleteButtons.forEach(button => button.addEventListener('click', handleDelete));
+        
+        let favoriteItems = document.querySelectorAll('li')
+        console.log(favoriteItems);
+        favoriteItems.forEach(item => item.addEventListener('click', loadFavoriteItem));
     }
 }
 
@@ -123,6 +127,11 @@ function handleDelete(e) {
     fetch(`http://localhost:3000/favorites/${e.target.dataset.productId}`, {
         method: 'DELETE'
     })
-
     e.target.parentElement.remove();
+}
+
+function loadFavoriteItem(e) {
+    results.innerHTML='';
+    let favoriteToLoad = productData.find(product => parseInt(product.id) === parseInt(e.target.dataset.productId));
+    buildProductCard(favoriteToLoad);
 }

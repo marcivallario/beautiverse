@@ -116,6 +116,7 @@ div#favorites {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
 }
 
 #search-button img {
