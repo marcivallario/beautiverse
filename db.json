@@ -1,202 +1,45 @@
 {
   "favorites": [
     {
-      "id": 818,
-      "brand": "clinique",
-      "name": "Acne Solutions BB Cream Broad Spectrum SPF 40",
-      "price": "39.0",
-      "price_sign": "$",
-      "currency": "USD",
-      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_Z54E_181x209.png",
-      "product_link": "https://www.clinique.com/product/1599/35075/makeup/foundations/acne-solutions-bb-cream-broad-spectrum-spf-40",
-      "website_link": "https://www.clinique.com",
-      "description": "A mattifying BB Cream specifically developed for blemish-prone or oily skins. Combines oil control, buildable coverage and UVA/UVB protection for a protected, shine-free complexion. Lightweight, shake-well formula delivers a freshly-mixed application every time. Wears beautifully for 12-hours. Oil-free.",
-      "rating": null,
-      "category": null,
-      "product_type": "foundation",
-      "tag_list": [],
-      "created_at": "2017-12-23T23:42:56.921Z",
-      "updated_at": "2017-12-23T23:43:09.229Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/818.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/818/original/data?1514072589",
-      "product_colors": [
-        {
-          "hex_value": "#e3b59a",
-          "colour_name": "Light"
-        },
-        {
-          "hex_value": "#ddad92",
-          "colour_name": "Light Medium"
-        },
-        {
-          "hex_value": "#d07e4a",
-          "colour_name": "Medium"
-        },
-        {
-          "hex_value": "#c57542",
-          "colour_name": "Medium Deep"
-        },
-        {
-          "hex_value": "#b86530",
-          "colour_name": "Deep"
-        }
-      ]
-    },
-    {
-      "id": 496,
-      "brand": "e.l.f.",
-      "name": "e.l.f. Bronzer Palette",
-      "price": "7.99",
-      "price_sign": null,
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/43c49769e362a003f88479de225c6dd6_ra,w158,h184_pa,w158,h184.jpg",
-      "product_link": "https://well.ca/products/elf-bronzer-palette_117847.html",
-      "website_link": "https://well.ca",
-      "description": "This beautiful e.l.f. Bronzer Palette holds 4 gorgeous shades to mix and match throughout the year for a custom-blended glow.  With a mixture of matte and shimmer finishes, you can achieve a professional look every time.  The pigmented colours are great for contouring, shading, sculpting, and highlighting.How To Use: For a contoured look, coose desire shade and apply colour by tracing a \"figure 3\" on the outer side of the face from the forehead down towards the cheeks and downward along the jawline. For a sun-kissed glow, apply a little colour onto the forehead, nose, cheekbones, and chin.  Make sure to blend out any lines for a natural look. Ingredients: Mica, Talc, Ethylhexyl Palmitate, Silica, Nylon-12, PTFE, Zinc Stearate, Dimethicone, Tocopheryl Acetate (Ve). MAY CONTAIN: Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77492, CI 77499), Manganese Violet (CI 77742).",
-      "rating": null,
-      "category": null,
-      "product_type": "bronzer",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:36:15.582Z",
-      "updated_at": "2017-12-23T21:08:50.733Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/496.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/496/original/data?1514063330",
-      "product_colors": [
-        {
-          "hex_value": "#DAAB87",
-          "colour_name": null
-        },
-        {
-          "hex_value": "#C79374",
-          "colour_name": null
-        },
-        {
-          "hex_value": "#C79279",
-          "colour_name": null
-        },
-        {
-          "hex_value": "#DFB797",
-          "colour_name": null
-        }
-      ]
-    },
-    {
-      "id": 478,
-      "brand": "e.l.f.",
-      "name": "e.l.f. Studio Bronzer",
-      "price": "4.99",
-      "price_sign": null,
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/5bff7471d5030f2e808476e2ef735b82_ra,w158,h184_pa,w158,h184.jpeg",
-      "product_link": "https://well.ca/products/elf-studio-bronzer_93458.html",
-      "website_link": "https://well.ca",
-      "description": "Create a healthy looking glow all year round!  The sheer soft powders \nprovide the perfect hue of color.  Blend all 4 colors together to \nachieve a blend of perfection or choose your favorite color or colors to\n mix, match and blend.Golden Bronzer: An illuminating shimmer that is subtle and radiant.  Ideal for summer or year-round.\n\n\t\t\t\t\tIngredients: Talc, Paraffinum Liquidum (Mineral Oil), Magnesium Stearate, \nHydrogenated Polyisobutene, Sodium Dehydroacetate\nMay Contain: Mica, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, \nCI 77492, CI 77499), Red 7 Lake (CI 15850), Blue 1 Lake (CI 42090), Red \n40 Lake (CI 16035)\n",
-      "rating": 4.4,
-      "category": null,
-      "product_type": "bronzer",
-      "tag_list": [
-        "Vegan"
-      ],
-      "created_at": "2016-10-01T18:35:44.180Z",
-      "updated_at": "2017-12-23T21:08:48.484Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/478.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/478/original/data?1514063328",
-      "product_colors": [
-        {
-          "hex_value": "#C3A785",
-          "colour_name": "color 1"
-        },
-        {
-          "hex_value": "#DBBDAD",
-          "colour_name": "color 2"
-        },
-        {
-          "hex_value": "#DEC8B4",
-          "colour_name": "color 3"
-        },
-        {
-          "hex_value": "#BD9F87",
-          "colour_name": "color 4"
-        }
-      ]
-    },
-    {
-      "id": 450,
-      "brand": "e.l.f.",
-      "name": "e.l.f. Contouring Blush & Bronzing Powder",
-      "price": "3.99",
-      "price_sign": null,
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/adf90395cfffa4f3c2298b9f53622c81_ra,w158,h184_pa,w158,h184.jpg",
-      "product_link": "https://well.ca/products/elf-contouring-blush-bronzing_117823.html?cat=328",
-      "website_link": "https://well.ca",
-      "description": "Create a healthy and natural glow all year long with the e.l.f Contouring Blush & Bronzing Powder. The Blush highlights the cheeks to add a flush of colour, while the Bronzer accents and contours cheekbones for beautiful definition. This convenient compact has just what you need to achieve a gorgeous glow anytime, anywhere. How To Use: Brush on the \"bronze\" to the hollow of the cheeks for definition and dust around the face line to create a healthy glow. Use the \"blush\" on the apple of the cheeks to create a subtle healthy glow. Ingredients: Talc, Mica, Magnesium Stearate, Paraffinum Liquidum (Mineral Oil), Polyisobutene, Ethylhexyl Methoxycinnamate, Triacontanyl PVP, Sodium Dehydroacetate May Contain: Iron Oxides (CI 77491, CI 77492, CI 77499), Titanium Dioxide (CI 77891), Red 40 Lake (CI 16035), Ultramarines (CI 77007) ",
-      "rating": null,
-      "category": null,
-      "product_type": "bronzer",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:35:03.675Z",
-      "updated_at": "2017-12-23T21:08:44.583Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/450.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/450/original/data?1514063324",
-      "product_colors": [
-        {
-          "hex_value": "#D6857A",
-          "colour_name": null
-        },
-        {
-          "hex_value": "#D3A281",
-          "colour_name": null
-        }
-      ]
-    },
-    {
-      "id": 378,
-      "brand": "e.l.f.",
-      "name": "e.l.f. Studio HD Mattifying Cream Foundation",
-      "price": "9.99",
-      "price_sign": null,
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/b9a2310c06b11611ab850051c90d06b0_ra,w158,h184_pa,w158,h184.jpeg",
-      "product_link": "https://well.ca/products/elf-studio-hd-mattifying-cream_93392.html",
-      "website_link": "https://well.ca",
-      "description": "This high-definition, oil-free, lightweight foundation is perfect for \nnormal to oily skin types. The cream-to-powder formula minimizes fine \nlines and leaves a natural, long-lasting, matte finish. Includes a \ncompact sponge for easy application and portable beauty.Shade Range: Ingredients: Ethylhexl Palmitate, Octyldodecanol, Synthetic Wax, Copernicia Cerifera \n(Carnauba) Wax, Caprylic/Capric Triglyceride, Tridecyl Trimellitate, \nMica, Nylon-12, Silica, Triacontanyl PVP, Polyglyceryl-4 Isostearate, \nPropylparaben, Tocopheryl Acetate MAY CONTAIN: Iron Oxides (CI \n77491, CI 77492, CI 77499), Manganese Violet (CI 77492), Red No. 33 Lake\n (CI 17200), Blue No. 1(CI 42090), Yellow No. 5 Lake (CI 19140), \nTitanium Dioxide (CI 77891), Red No.40 Lake (CI 16035), Chromium \nHydroxide Green (CI 77289). ",
-      "rating": 4.8,
-      "category": "cream",
-      "product_type": "foundation",
-      "tag_list": [
-        "Vegan"
-      ],
-      "created_at": "2016-10-01T18:33:09.497Z",
-      "updated_at": "2017-12-23T21:08:33.304Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/378.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/378/original/data?1514063313",
-      "product_colors": [
-        {
-          "hex_value": "#ECB78F",
-          "colour_name": "Sand "
-        }
-      ]
-    },
-    {
-      "id": 995,
+      "id": 998,
       "brand": "nyx",
-      "name": "Big & Loud Lash Primer",
-      "price": "7.0",
+      "name": "Fly With Me Mascara",
+      "price": "9.0",
       "price_sign": "$",
       "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa4949d3a/ProductImages/Eyes/Big_And_Loud_Lash_Primer/bigandloudlashprimer_alt1.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/big-and-loud-lash-primer/NYX_166.html?cgid=mascara",
+      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd5e25f68/ProductImages/Eyes/Fly_With_Me_Mascara/800897141431_flywithmemascara_main.jpg?sw=390&sh=390&sm=fit",
+      "product_link": "https://www.nyxcosmetics.com/fly-with-me-mascara/NYX_018.html?cgid=mascara",
       "website_link": "https://www.nyxcosmetics.com",
-      "description": "Give your lashes a boost with our Big & Loud Lash Primer. It works hand in hand with your favorite NYX Professional Makeup mascara to enhance the length and volume of lashes.",
+      "description": "Your lashes will reach new heights with our Fly With Me Mascara. Lashes appear more dramatic making average lashes look super-long and ultra dark. Pros adore the intense yet lightweight coverage and how the unique volumizing wand boosts even the wimpiest of the eyelashes.",
       "rating": null,
       "category": null,
       "product_type": "mascara",
       "tag_list": [],
-      "created_at": "2017-12-24T02:33:06.023Z",
-      "updated_at": "2017-12-24T02:33:06.430Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/995.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/995/original/data?1514082785",
+      "created_at": "2017-12-24T02:33:07.960Z",
+      "updated_at": "2017-12-24T02:33:08.735Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/998.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/998/original/data?1514082787",
+      "product_colors": []
+    },
+    {
+      "id": 996,
+      "brand": "nyx",
+      "name": "Proof It! Waterproof Mascara Top Coat",
+      "price": "7.0",
+      "price_sign": "$",
+      "currency": "USD",
+      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw31cb2063/ProductImages/Eyes/Proof_It_Waterproof_Mascara_Top_Coat/proofitwaterproofmascaratopcoat_main.jpg?sw=390&sh=390&sm=fit",
+      "product_link": "https://www.nyxcosmetics.com/proof-it-waterproof-mascara-top-coat/NYX_179.html?cgid=mascara",
+      "website_link": "https://www.nyxcosmetics.com",
+      "description": "With just two swipes our lash top coat transforms your favorite mascara from being conventional to waterproof! Our formula helps prevent clumping and leaves lashes looking gorgeous.",
+      "rating": null,
+      "category": null,
+      "product_type": "mascara",
+      "tag_list": [],
+      "created_at": "2017-12-24T02:33:06.827Z",
+      "updated_at": "2017-12-24T02:33:07.353Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/996.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/996/original/data?1514082786",
       "product_colors": []
     },
     {
@@ -221,48 +64,152 @@
       "product_colors": []
     },
     {
-      "id": 953,
+      "id": 990,
       "brand": "nyx",
-      "name": "Collection Chocolate",
+      "name": "Boudoir Mascara Collection",
       "price": "6.0",
       "price_sign": "$",
       "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwbccef58f/ProductImages/Eyes/Collection_Chocolate/collectionchocolate_main.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/collection-chocolate/NYX_090.html?cgid=eyeliner",
+      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwda9f6cec/ProductImages/Eyes/Boudoir_Mascara_Collection/boudoirmascaracollection_main.jpg.jpg?sw=390&sh=390&sm=fit",
+      "product_link": "https://www.nyxcosmetics.com/boudoir-mascara-collection/NYX_060.html?cgid=mascara",
       "website_link": "https://www.nyxcosmetics.com",
-      "description": "What’s better than a guilt-free treat! Feast your eyes on our Collection Chocolate in 6 of our most delectable liners. The mouthwatering formula is smudge proof and comes in satin matte glossy or liquid.",
+      "description": "Every powder room should have our luxurious Boudoir Mascara Collection available in 7 elite formulas. Whether you want to darken, amp up the volume, or lengthen your lashes - we have a mascara that meets all your needs.",
       "rating": null,
-      "category": "pencil",
-      "product_type": "eyeliner",
+      "category": null,
+      "product_type": "mascara",
       "tag_list": [],
-      "created_at": "2017-12-24T02:31:47.604Z",
-      "updated_at": "2017-12-24T02:32:22.990Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/953.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/953/original/open-uri20171224-4-1xyp0ge?1514082742",
+      "created_at": "2017-12-24T02:33:00.623Z",
+      "updated_at": "2017-12-24T02:33:01.097Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/990.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/990/original/open-uri20171224-4-1xdrjhl?1514082780",
       "product_colors": [
         {
-          "hex_value": "#3B2C25",
-          "colour_name": "Glossy Brown Liner"
+          "hex_value": "#131315",
+          "colour_name": "Le Frou Frou"
         },
         {
-          "hex_value": "#27160F",
-          "colour_name": "Matte Brown Liner"
+          "hex_value": "#232323",
+          "colour_name": "Pin-Up Tease"
         },
         {
-          "hex_value": "#36251B",
-          "colour_name": "Satin Finish Brown Liner"
+          "hex_value": "#0D0D0D",
+          "colour_name": "Provocateur"
         },
         {
-          "hex_value": "#E7E7DF",
-          "colour_name": "Kohl Kajal Brown Liner"
+          "hex_value": "#141414",
+          "colour_name": "Faux Lashes"
         },
         {
-          "hex_value": "#281409",
-          "colour_name": "Skinny Brown Liner"
+          "hex_value": "#151515",
+          "colour_name": "Le Chick Flick"
         },
         {
-          "hex_value": "#442B24",
-          "colour_name": "Liquid Brown Liner"
+          "hex_value": "#2B2B2B",
+          "colour_name": "La Amoureux"
+        },
+        {
+          "hex_value": "#121212",
+          "colour_name": "Za Za Zu"
+        }
+      ]
+    },
+    {
+      "id": 992,
+      "brand": "nyx",
+      "name": "The Skinny Mascara",
+      "price": "7.0",
+      "price_sign": "$",
+      "currency": "USD",
+      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwcb91e11f/ProductImages/Eyes/The_Skinny_Mascara/theskinnymascara_main.jpg?sw=390&sh=390&sm=fit",
+      "product_link": "https://www.nyxcosmetics.com/the-skinny-mascara/NYX_183.html?cgid=mascara",
+      "website_link": "https://www.nyxcosmetics.com",
+      "description": "Our ultra-skinny mascara brush is perfect for coating hard to reach lashes from root to tipâ€”even along the bottom lash line! Finally the smallest, thinnest lashes can get extra special attention too. The water resistant formula and micro brush work together to create the appearance of long beautifully defined lashes.",
+      "rating": null,
+      "category": null,
+      "product_type": "mascara",
+      "tag_list": [],
+      "created_at": "2017-12-24T02:33:02.793Z",
+      "updated_at": "2017-12-24T02:33:04.446Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/992.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/992/original/data?1514082782",
+      "product_colors": []
+    },
+    {
+      "id": 991,
+      "brand": "nyx",
+      "name": "Worth the Hype Volumizing & Lengthening Mascara",
+      "price": "8.0",
+      "price_sign": "$",
+      "currency": "USD",
+      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb654afff/ProductImages/2018/Eyes/Worth_The_Hype_Volumizing_Mascara/800897140250_worththehypevolumizingmascara_main.jpg?sw=390&sh=390&sm=fit",
+      "product_link": "https://www.nyxcosmetics.com/worth-the-hype-volumizing-lengthening-mascara/NYX_590.html?cgid=mascara",
+      "website_link": "https://www.nyxcosmetics.com",
+      "description": "Take our word for it: if you want your lashes to look darker, fuller and lethally gorgeous all day long, then our new Worth the Hype Volumizing & Lengthening Mascara is your jam. A breeze to apply and comfortable to wear, this buildable formula actually does what it promises, making it “worth the hype” in every which way. It also features a brush that tapers at the tip, so you can brush, build, and lengthen even the littlest baby lashes at the inner corners of your eyes.",
+      "rating": null,
+      "category": null,
+      "product_type": "mascara",
+      "tag_list": [],
+      "created_at": "2017-12-24T02:33:02.251Z",
+      "updated_at": "2017-12-24T02:33:02.648Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/991.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/991/original/data?1514082782",
+      "product_colors": []
+    },
+    {
+      "id": 979,
+      "brand": "nyx",
+      "name": "Eyebrow Powder Pencil",
+      "price": "6.5",
+      "price_sign": "$",
+      "currency": "USD",
+      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw85601149/ProductImages/2017/Eyes/Eyebrow_Powder_Pencil/eyebrowpowderpencil_main.jpg?sw=390&sh=390&sm=fit",
+      "product_link": "https://www.nyxcosmetics.com/eyebrow-powder-pencil/NYX_408.html?cgid=brows",
+      "website_link": "https://www.nyxcosmetics.com",
+      "description": "Close your eyes and picture the perfect brows. Are they defined, yet delicate? Create the brows of this daydream with the brand new Eyebrow Powder Pencil. Our unique pencil’s superfine texture provides a powdery-soft, matte finish. Put the finishing touches on your arches by using the included spoolie brush to smooth out the rich color.",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2017-12-24T02:32:46.856Z",
+      "updated_at": "2017-12-24T02:32:47.732Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/979.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/979/original/open-uri20171224-4-1wo69r1?1514082766",
+      "product_colors": [
+        {
+          "hex_value": "#FFF0E2",
+          "colour_name": "Blonde"
+        },
+        {
+          "hex_value": "#F7EFE4",
+          "colour_name": "Taupe"
+        },
+        {
+          "hex_value": "#F5EBE2",
+          "colour_name": "Soft Brown"
+        },
+        {
+          "hex_value": "#FBEFE3",
+          "colour_name": "Caramel"
+        },
+        {
+          "hex_value": "#FBEBDB",
+          "colour_name": "Auburn"
+        },
+        {
+          "hex_value": "#F6EDE4",
+          "colour_name": "Brunette"
+        },
+        {
+          "hex_value": "#F6EBE5",
+          "colour_name": "Espresso"
+        },
+        {
+          "hex_value": "#F7EDE4",
+          "colour_name": "Ash Brown"
+        },
+        {
+          "hex_value": "#E1E1E1",
+          "colour_name": "Black"
         }
       ]
     }

@@ -96,6 +96,11 @@ main {
 }
 
 #favorites-list li {
+    display: flex;
+    margin: 5px;
+}
+
+#favorites-list li p {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
