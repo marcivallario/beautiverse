@@ -47,7 +47,8 @@ function buildProductCard(product) {
         </div>
     `
     results.append(card);
-    document.querySelector('.favorite-button').addEventListener('click', handleAddFavorite);
+    let favoriteButtons = document.querySelectorAll('.favorite-button')
+    favoriteButtons.forEach(button => button.addEventListener('click', handleAddFavorite));
 }
 
 function getSearchResults(e) {
@@ -74,6 +75,7 @@ function loadSearchResults(productArray) {
 }
 
 function handleAddFavorite(event) {
+    console.log('click');
     let chosenProduct = productData.find(product => parseInt(product.id) === parseInt(event.target.dataset.productId));
     let liList = Array.from(favoritesList.querySelectorAll('li'));
     if (!(liList.find(li => parseInt(li.dataset.productId) === chosenProduct.id))) {
