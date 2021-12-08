@@ -21,12 +21,18 @@ svg {
 }
 
 /* Nav Header*/
+header {
+    position: relative;
+    z-index: 2;
+}
+
 nav {
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    
 }
 
 nav > img {
@@ -94,7 +100,7 @@ div#results {
 div#favorites {
     position: fixed;
     background-color:rgba(124,177,213,.5);
-    top: 74px;
+    top: 75px;
     left: 0;
     height: 100%;
     width: 250px;
@@ -104,6 +110,9 @@ div#favorites {
 
 #favorites-list {
     list-style-type: none;
+}
+
+#favorites-list li {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -111,4 +120,11 @@ div#favorites {
 
 #search-button img {
     cursor: pointer;
+}
+
+.delete-button {
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #000;
+    color: #fff;
 }

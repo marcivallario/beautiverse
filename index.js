@@ -110,9 +110,19 @@ function renderFavorite(favorite) {
         `#favorites-list li[data-product-id="${favorite.id}"]`
     )
     let li = existingLi || document.createElement('li');
-    li.textContent = favorite.name;
+    li.innerHTML = `<button class="delete-button" data-product-id=${favorite.id}>x</button>${favorite.name}`;
     li.dataset.productId = favorite.id;
     if (!existingLi) {
         favoritesList.append(li);
+        let deleteButtons = document.querySelectorAll('.delete-button')
+        deleteButtons.forEach(button => button.addEventListener('click', handleDelete));
     }
+}
+
+function handleDelete(e) {
+    fetch(`http://localhost:3000/favorites/${e.target.dataset.productId}`, {
+        method: 'DELETE'
+    })
+
+    e.target.parentElement.remove();
 }
