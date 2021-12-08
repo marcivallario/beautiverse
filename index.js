@@ -5,6 +5,7 @@ let form = document.getElementById('search-bar');
 let favoritesList = document.getElementById('favorites-list');
 let currentProduct;
 
+// Featured products & persisting Favorites List
 document.addEventListener('DOMContentLoaded', () => {
     fetch('http://makeup-api.herokuapp.com/api/v1/products.json')
     .then(resp => resp.json())
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', getSearchResults)
 })
 
+//Building product cards
 function buildProductCard(product) {
     let card = document.createElement('div');
     let shadeNames = product.product_colors.map(shade => {
@@ -50,7 +52,7 @@ function buildProductCard(product) {
     let favoriteButtons = document.querySelectorAll('.favorite-button')
     favoriteButtons.forEach(button => button.addEventListener('click', handleAddFavorite));
 }
-
+// Loading Search Results
 function getSearchResults(e) {
     e.preventDefault();
     results.innerHTML=''
@@ -74,6 +76,7 @@ function loadSearchResults(productArray) {
     productArray.forEach(product => buildProductCard(product))
 }
 
+// Favoriting
 function handleAddFavorite(event) {
     console.log('click');
     let chosenProduct = productData.find(product => parseInt(product.id) === parseInt(event.target.dataset.productId));
@@ -96,6 +99,7 @@ function addToFavorites(product) {
     .then(renderFavorite(product))
 }
 
+// Favorites List
 function renderFavoritesList(favoritesListArr) {
     favoritesList.innerHTML = '';
     favoritesListArr.forEach(favorite => renderFavorite(favorite))
