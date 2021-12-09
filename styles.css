@@ -152,7 +152,7 @@ main {
     justify-content: center;
     padding: 2em;
     margin: 10%;
-    border: 2px solid rgba(124,177,213,.5);
+    border: 4px solid rgba(124,177,213,.5);
 }
 
 .image-container {
