@@ -79,6 +79,7 @@ main {
     display: flex;
     align-items: flex-start;
     height: 100%;
+    min-height: 100vh;
 }
 
 /* Favorites List */
@@ -89,7 +90,7 @@ main {
     padding: 2em;
     min-height: 100%;
     height: auto;
-}
+    box-shadow: 5px 5px 40px grey;}
 
 #favorites-list {
     margin: auto 0;
@@ -219,4 +220,31 @@ main {
     font-weight: bold;
     text-align: center;
     padding-top: 100px;
+}
+
+@media only screen and (min-width:769px) and (max-width: 900px) {
+    .makeup-details {
+        flex-direction: column;
+    }
+
+    #sidebar {
+        width: 25%;
+    }
+
+    #results {
+        min-width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    #sidebar {
+        width: 100%;
+        min-height: auto;
+        max-height: 200px;
+        overflow: auto;
+    }
 }

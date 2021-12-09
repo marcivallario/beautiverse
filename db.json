@@ -22,27 +22,6 @@
       "product_colors": []
     },
     {
-      "id": 997,
-      "brand": "nyx",
-      "name": "Propel My Eyes Mascara",
-      "price": "9.0",
-      "price_sign": "$",
-      "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw8068dbc4/ProductImages/Eyes/Propel_My_Eyes_Mascara/propelmyeyesmascara_main.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/propel-my-eyes-mascara/NYX_020.html?cgid=mascara",
-      "website_link": "https://www.nyxcosmetics.com",
-      "description": "Get ready for aerodynamic lashes! The brush boasts a four-way pinwheel design that lifts lashes up and coats them in a conditioning formula enriched with Pro Vitamin B5 D-Panthenol and Green Tea Extract. Take it for a spin and enjoy!",
-      "rating": null,
-      "category": null,
-      "product_type": "mascara",
-      "tag_list": [],
-      "created_at": "2017-12-24T02:33:07.488Z",
-      "updated_at": "2017-12-24T02:33:07.828Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/997.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/997/original/data?1514082787",
-      "product_colors": []
-    },
-    {
       "id": 990,
       "brand": "nyx",
       "name": "Boudoir Mascara Collection",
@@ -93,58 +72,79 @@
       ]
     },
     {
-      "id": 989,
+      "id": 970,
       "brand": "nyx",
-      "name": "Color Mascara",
-      "price": "7.0",
+      "name": "Micro Brow Pencil",
+      "price": "10.0",
       "price_sign": "$",
       "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw8044f7e7/ProductImages/Eyes/Color_Mascara/colormascara_main.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/color-mascara/NYX_124.html?cgid=mascara",
+      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw14cbffac/ProductImages/Eyes/Micro_Brow_Pencil/microbrowpencil_main.jpg?sw=390&sh=390&sm=fit",
+      "product_link": "https://www.nyxcosmetics.com/micro-brow-pencil/NYX_181.html?cgid=brows",
       "website_link": "https://www.nyxcosmetics.com",
-      "description": "Think beyond the ordinary with these fun and vibrant new mascara options from NYX Professional Makeup. Packed full of pigments and delivering on the promise of intense color payoff, everyone will notice your fabulous eye lash color. Go for it - we dare you to try all eight shades!",
+      "description": "Build full beautiful brows with our ultra-thin Micro Brow Pencil. So precise it coats even the finest hairs with color for a natural-looking finish.",
       "rating": null,
       "category": null,
-      "product_type": "mascara",
+      "product_type": "eyebrow",
       "tag_list": [],
-      "created_at": "2017-12-24T02:32:59.193Z",
-      "updated_at": "2017-12-24T02:32:59.610Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/989.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/989/original/open-uri20171224-4-1gh72x0?1514082779",
+      "created_at": "2017-12-24T02:32:30.884Z",
+      "updated_at": "2017-12-24T02:32:31.284Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/970.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/970/original/open-uri20171224-4-1jdhvhr?1514082750",
       "product_colors": [
         {
-          "hex_value": "#FFFAFF",
-          "colour_name": "Purple"
+          "hex_value": "#AD927F",
+          "colour_name": "Taupe"
         },
         {
-          "hex_value": "#FBFCFF",
-          "colour_name": "Blue"
+          "hex_value": "#BCA28B",
+          "colour_name": "Blonde"
         },
         {
-          "hex_value": "#FFF9F3",
-          "colour_name": "Brown"
+          "hex_value": "#A1856D",
+          "colour_name": "Auburn"
         },
         {
-          "hex_value": "#FEFBF6",
-          "colour_name": "Perfect Pear"
+          "hex_value": "#8C7160",
+          "colour_name": "Chocolate"
         },
         {
-          "hex_value": "#FBFAF6",
-          "colour_name": "Coral Reef"
+          "hex_value": "#827262",
+          "colour_name": "Ash Brown"
         },
         {
-          "hex_value": "#F4FAF6",
-          "colour_name": "Mint Julep"
+          "hex_value": "#756158",
+          "colour_name": "Brunette"
         },
         {
-          "hex_value": "#F7F5F8",
-          "colour_name": "Forget Me Not"
+          "hex_value": "#584B42",
+          "colour_name": "Espresso"
         },
         {
-          "hex_value": "#F5F3F4",
-          "colour_name": "Pink Petals"
+          "hex_value": "#2C2C2C",
+          "colour_name": "Black"
         }
       ]
+    },
+    {
+      "id": 983,
+      "brand": "nyx",
+      "name": "Eyebrow Shaper",
+      "price": "8.75",
+      "price_sign": "$",
+      "currency": "USD",
+      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7bb4049d/ProductImages/Eyes/Eyebrow_Shaper/eyebrowshaper_main.jpg?sw=390&sh=390&sm=fit",
+      "product_link": "https://www.nyxcosmetics.com/eyebrow-shaper/NYX_031.html?cgid=brows",
+      "website_link": "https://www.nyxcosmetics.com",
+      "description": "Tame unruly eyebrows with this ingenious wax pencil. The blend of waxes is enriched with Vitamin E and leaves arches in tip-top condition and impeccable shape with just a few strokes.",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2017-12-24T02:32:53.558Z",
+      "updated_at": "2017-12-24T02:32:53.894Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/983.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/983/original/data?1514082773",
+      "product_colors": []
     },
     {
       "id": 984,
@@ -189,69 +189,6 @@
         {
           "hex_value": "#8A6554",
           "colour_name": "Soft Brown"
-        }
-      ]
-    },
-    {
-      "id": 976,
-      "brand": "nyx",
-      "name": "Control Freak Eyebrow Gel",
-      "price": "6.0",
-      "price_sign": "$",
-      "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwdf8d06a2/ProductImages/Eyes/Control_Freak_Eyebrow_Gel/controlfreakeyebrowgel_main.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/control-freak-eyebrow-gel/NYX_123.html?cgid=brows",
-      "website_link": "https://www.nyxcosmetics.com",
-      "description": "Out of control brows have you flustered? NYX Professional Makeup's Control Freak Brow Gel offers a new way to tame them fast. The clear formula works well over powder or pencil to seal the deal and make a statement with your brows that you will be proud of. The unique non-sticky formula is comfortable to wear all day and can also be used as a clear mascara that defines, separates and enhances the natural curl of lashes.",
-      "rating": null,
-      "category": null,
-      "product_type": "eyebrow",
-      "tag_list": [],
-      "created_at": "2017-12-24T02:32:42.032Z",
-      "updated_at": "2017-12-24T02:32:42.514Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/976.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/976/original/data?1514082761",
-      "product_colors": []
-    },
-    {
-      "id": 972,
-      "brand": "nyx",
-      "name": "Eyebrow Gel",
-      "price": "7.0",
-      "price_sign": "$",
-      "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw9ad6ed1a/ProductImages/Eyes/Eyebrow_Gel/800897831585_eyebrowgel_main.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/eyebrow-gel/NYX_159.html?cgid=brows",
-      "website_link": "https://www.nyxcosmetics.com",
-      "description": "Keep your misbehaving brows in place with our discreet and easy-to-use brow gel! The lightweight waterproof formula creates thicker, fuller, natural-looking brows and comes in five versatile shades.",
-      "rating": null,
-      "category": null,
-      "product_type": "eyebrow",
-      "tag_list": [],
-      "created_at": "2017-12-24T02:32:33.622Z",
-      "updated_at": "2017-12-24T02:32:34.056Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/972.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/972/original/open-uri20171224-4-10rp9z1?1514082753",
-      "product_colors": [
-        {
-          "hex_value": "#BD9E81",
-          "colour_name": "Blonde"
-        },
-        {
-          "hex_value": "#805741",
-          "colour_name": "Chocolate"
-        },
-        {
-          "hex_value": "#755B44",
-          "colour_name": "Brunette"
-        },
-        {
-          "hex_value": "#5E3F2B",
-          "colour_name": "Espresso"
-        },
-        {
-          "hex_value": "#2E251C",
-          "colour_name": "Black"
         }
       ]
     }
