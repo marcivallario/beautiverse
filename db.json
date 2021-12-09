@@ -126,27 +126,6 @@
       ]
     },
     {
-      "id": 983,
-      "brand": "nyx",
-      "name": "Eyebrow Shaper",
-      "price": "8.75",
-      "price_sign": "$",
-      "currency": "USD",
-      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7bb4049d/ProductImages/Eyes/Eyebrow_Shaper/eyebrowshaper_main.jpg?sw=390&sh=390&sm=fit",
-      "product_link": "https://www.nyxcosmetics.com/eyebrow-shaper/NYX_031.html?cgid=brows",
-      "website_link": "https://www.nyxcosmetics.com",
-      "description": "Tame unruly eyebrows with this ingenious wax pencil. The blend of waxes is enriched with Vitamin E and leaves arches in tip-top condition and impeccable shape with just a few strokes.",
-      "rating": null,
-      "category": null,
-      "product_type": "eyebrow",
-      "tag_list": [],
-      "created_at": "2017-12-24T02:32:53.558Z",
-      "updated_at": "2017-12-24T02:32:53.894Z",
-      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/983.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/983/original/data?1514082773",
-      "product_colors": []
-    },
-    {
       "id": 984,
       "brand": "nyx",
       "name": "3-Dimensional Brow Marker",
@@ -189,6 +168,215 @@
         {
           "hex_value": "#8A6554",
           "colour_name": "Soft Brown"
+        }
+      ]
+    },
+    {
+      "id": 327,
+      "brand": "covergirl",
+      "name": "CoverGirl Outlast Stay Fabulous 3-in-1 Foundation ",
+      "price": "12.49",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/f047b24948adf8c9d5f6b795db107920_ra,w158,h184_pa,w158,h184.jpeg",
+      "product_link": "https://well.ca/products/covergirl-outlast-stay-fabulous_74021.html",
+      "website_link": "https://well.ca",
+      "description": "CoverGirl Outlast Stay Fabulous 3-in-1 foundation is an all-in-one foundation with a long-lasting formula that fuses primer, \nconcealer, and foundation in one easy step! The 3-in-1 formula provides a\n flawless look that lasts all day long.Features: All day, longwear formulaPrimer, concealer, and foundation in oneSmooth, flawless finishFoundation + Sunscreen SPF 20",
+      "rating": 4,
+      "category": "liquid",
+      "product_type": "foundation",
+      "tag_list": [],
+      "created_at": "2016-10-01T18:31:40.657Z",
+      "updated_at": "2017-12-23T21:08:21.416Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/327.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/327/original/data?1514063301",
+      "product_colors": []
+    },
+    {
+      "id": 495,
+      "brand": "maybelline",
+      "name": "Maybelline Face Studio Master Hi-Light Light Booster Bronzer",
+      "price": "14.99",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/991799d3e70b8856686979f8ff6dcfe0_ra,w158,h184_pa,w158,h184.png",
+      "product_link": "https://well.ca/products/maybelline-face-studio-master_88837.html",
+      "website_link": "https://well.ca",
+      "description": "Maybelline Face Studio Master Hi-Light Light Boosting bronzer formula has an expert \nbalance of shade + shimmer illuminator for natural glow. Skin goes \nsoft-lit with zero glitz.\n\n\t\tFor Best Results: Brush over all shades in palette and gently sweep over \ncheekbones, brow bones, and temples, or anywhere light naturally touches\n the face.\n\n\t\t\n\t\n\n                    ",
+      "rating": 5,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-01T18:36:15.012Z",
+      "updated_at": "2017-12-23T21:08:50.624Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/495.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/495/original/open-uri20171223-4-9hrto4?1514063330",
+      "product_colors": []
+    },
+    {
+      "id": 488,
+      "brand": "maybelline",
+      "name": "Maybelline Fit Me Bronzer",
+      "price": "10.29",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/d4f7d82b4858c622bb3c1cef07b9d850_ra,w158,h184_pa,w158,h184.png",
+      "product_link": "https://well.ca/products/maybelline-fit-me-bronzer_31265.html",
+      "website_link": "https://well.ca",
+      "description": "Why You'll Love It\n\nLightweight pigments blend easily and wear evenly\nProvides a natural, fade-proof bronzed color that leaves skin the way it was meant to be...fresh, breathing and natural\n\nFor Best Results: For soft, natural look, brush along cheekbone, sweeping upward.",
+      "rating": 4.5,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-01T18:36:05.584Z",
+      "updated_at": "2017-12-23T21:08:49.985Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/488.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/488/original/open-uri20171223-4-deo82c?1514063329",
+      "product_colors": [
+        {
+          "hex_value": "#CF9978",
+          "colour_name": "Medium Bronze "
+        }
+      ]
+    },
+    {
+      "id": 499,
+      "brand": "covergirl",
+      "name": "CoverGirl truBLEND Bronzer",
+      "price": "13.99",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/60f9f4f29be5221ff70cf20fabc03564_ra,w158,h184_pa,w158,h184.png",
+      "product_link": "https://well.ca/products/covergirl-trublend-bronzer_112764.html",
+      "website_link": "https://well.ca",
+      "description": "CoverGirl's New truBLEND Bronzer has a marble-baked formula that blends instantly with skin making bronzer lines a thing of the past.Features:Baked blend of colors for the perfect glowBaked to get the perfect bronze for every skin toneBlends instantly, no bronzer linesSuitable for sensitive skin How to Apply: Step 1: Lightly dip brush into bronzer, being careful to tap or blow off excess powder. Step 2: Next, sweep the bronzer over cheeks and temples to create a warm, even, sun-kissed glow. ",
+      "rating": null,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-01T18:36:19.612Z",
+      "updated_at": "2017-12-23T21:08:32.604Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/499.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/499/original/open-uri20171223-4-1oytpeg?1514063312",
+      "product_colors": []
+    },
+    {
+      "id": 258,
+      "brand": "milani",
+      "name": "Milani Supreme Kohl Kajal Eyeliner",
+      "price": "8.99",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/0e085149c3fbedd0aa6661c6b3d143cf_ra,w158,h184_pa,w158,h184.jpg",
+      "product_link": "https://well.ca/products/milani-supreme-kohl-kajal-eyeliner_108625.html",
+      "website_link": "https://well.ca",
+      "description": "Milani Supreme Kohl Kajal Eyeliner is perfect for tightlining, waterlining or adding definition to the upper lid - there’s nothing this one-stroke wonder can’t do.  With this sleek gold multi-tasker, you can achieve three distinct looks: 1.To keep it natural, line the upper lid and inner rim.  2. For added drama, thicken the line and extend the tip.  3. Feeling bold? Ring the entire eye. Available in a single stellar shade (Blackest Black), the waterproof formula is laced with hydrating, nourishing ingredients. Features:Smooth-glide application creates three looks from precise to boldSuper long-wear & smudge-proofRetractable tip, no sharpening requiredIdeal for use in waterlineWaterproofApplication: One Product Three Looks: Supremely Natural Supremely Dramatic Supremely Bold (will provide eye images for this section) Apply to upper lashline and inner rim for a natural, precise look. For added intensity, slightly thicken the line and extend the tip. For supreme drama, connect through the lower lashline.Ingredients: Cyclopentasiloxane, Hydrogenated Olive Oil Stearyl Esters, Polyethylene, Polybutene, Silica Silylate, Euphorbia Cerifera (Candelilla) Wax, Octyldodecanol, Cera Microcristallina (Microcrystalline Wax) , Theobroma Grandiflorum (Cocoa) Seed Butter, Sodium Ascorbyl Phosphate, Pentaerythrityl Tetra-di-t-Butyl Hydroxyhydrocinnamate, Tocopherol, Sodium Hyaluronate, Zinc Gluconate, Magnesium Aspartate, Water (Aqua), Copper Gluconate, Mica, Iron Oxide (CI 77499), Black 2 (CI 77266), Ferric Ferrocyanide (CI 77510). ",
+      "rating": 5,
+      "category": "pencil",
+      "product_type": "eyeliner",
+      "tag_list": [],
+      "created_at": "2016-10-01T18:29:39.644Z",
+      "updated_at": "2017-12-23T21:08:07.140Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/258.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/258/original/data?1514063287",
+      "product_colors": []
+    },
+    {
+      "id": 998,
+      "brand": "nyx",
+      "name": "Fly With Me Mascara",
+      "price": "9.0",
+      "price_sign": "$",
+      "currency": "USD",
+      "image_link": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd5e25f68/ProductImages/Eyes/Fly_With_Me_Mascara/800897141431_flywithmemascara_main.jpg?sw=390&sh=390&sm=fit",
+      "product_link": "https://www.nyxcosmetics.com/fly-with-me-mascara/NYX_018.html?cgid=mascara",
+      "website_link": "https://www.nyxcosmetics.com",
+      "description": "Your lashes will reach new heights with our Fly With Me Mascara. Lashes appear more dramatic making average lashes look super-long and ultra dark. Pros adore the intense yet lightweight coverage and how the unique volumizing wand boosts even the wimpiest of the eyelashes.",
+      "rating": null,
+      "category": null,
+      "product_type": "mascara",
+      "tag_list": [],
+      "created_at": "2017-12-24T02:33:07.960Z",
+      "updated_at": "2017-12-24T02:33:08.735Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/998.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/998/original/data?1514082787",
+      "product_colors": []
+    },
+    {
+      "id": 530,
+      "brand": "smashbox",
+      "name": "Double Exposure Palette",
+      "price": "50.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.smashbox.com/media/images/products/388x396/sbx_sku_60680_388x396_0.jpg",
+      "product_link": "http://www.smashbox.com/product/6029/34190/eyes/eye-shadow/double-exposure-palette/with-full-exposure-mascara",
+      "website_link": "http://www.smashbox.com/",
+      "description": "Pros in our L.A. photo studio created this transformative palette to multiply their eye shadow collections by adding water. These shadows can be used as-is or transformed in 1 of 4 ways when wet. You can amp up vibrancy, go deeper, make 'em metallic or add sparkle. Whether you're feeling demure or dramatic or something else entirely, reinvent your eyes in seconds with this ultimate palette.For best results, first wet the brush, then press it against your hand or tissue to remove any excess water. Then, dip the damp brush into the pan. (We recommend a damp brush versus a wet one.) 14 shadows that become 28—just activate with water!  Each shadow transforms in 1 of 4 ways, thanks to coated pigments that create multiple effects when wet Shadows won't glaze over Unique double-ended shadow brush included Bonus: Full Exposure Mascara sample #ShapeMatters insert with how-to's for 6 eye shapes\n              \n                Formulated without Parabens, Sodium Lauryl Sulfate, Phthalates, Fragrance & Talc.INGREDIENTS: ISODODECANE , DEXTRIN PALMITATE , POLYMETHYLSILSESQUIOXANE , SYNTHETIC FLUORPHLOGOPITE , ETHYLHEXYL PALMITATE , PEG-15/LAURYL DIMETHICONE CROSSPOLYMER , TOCOPHEROL , DIMETHICONE , SIMETHICONE , ALUMINA , DIPROPYLENE GLYCOL , PHENOXYETHANOL , [+/- MICA , TITANIUM DIOXIDE (CI 77891) , IRON OXIDES (CI 77491) , IRON OXIDES (CI 77492) , IRON OXIDES (CI 77499) , ALUMINUM POWDER (CI 77000) , BISMUTH OXYCHLORIDE (CI 77163) , BLUE 1 LAKE (CI 42090) , CARMINE (CI 75470) , CHROMIUM HYDROXIDE GREEN (CI 77289) , CHROMIUM OXIDE GREENS (CI 77288) , FERRIC AMMONIUM FERROCYANIDE (CI 77510) , FERRIC FERROCYANIDE (CI 77510) , MANGANESE VIOLET (CI 77742) , ULTRAMARINES (CI 77007) , YELLOW 5 LAKE (CI 19140)]\n                <ILNILN41321>\n                  Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.\n              \n            Pros in our L.A. photo studio created this transformative palette to multiply their eye shadow collections by adding water. These shadows can be used as-is or transformed in 1 of 4 ways when wet. You can amp up vibrancy, go deeper, make 'em metallic or add sparkle. Whether you're feeling demure or dramatic or something else entirely, reinvent your eyes in seconds with this ultimate palette.For best results, first wet the brush, then press it against your hand or tissue to remove any excess water. Then, dip the damp brush into the pan. (We recommend a damp brush versus a wet one.) 14 shadows that become 28—just activate with water!  Each shadow transforms in 1 of 4 ways, thanks to coated pigments that create multiple effects when wet Shadows won't glaze over Unique double-ended shadow brush included Bonus: Full Exposure Mascara sample #ShapeMatters insert with how-to's for 6 eye shapes\n              \n                Formulated without Parabens, Sodium Lauryl Sulfate, Phthalates, Fragrance & Talc.INGREDIENTS: ISODODECANE , DEXTRIN PALMITATE , POLYMETHYLSILSESQUIOXANE , SYNTHETIC FLUORPHLOGOPITE , ETHYLHEXYL PALMITATE , PEG-15/LAURYL DIMETHICONE CROSSPOLYMER , TOCOPHEROL , DIMETHICONE , SIMETHICONE , ALUMINA , DIPROPYLENE GLYCOL , PHENOXYETHANOL , [+/- MICA , TITANIUM DIOXIDE (CI 77891) , IRON OXIDES (CI 77491) , IRON OXIDES (CI 77492) , IRON OXIDES (CI 77499) , ALUMINUM POWDER (CI 77000) , BISMUTH OXYCHLORIDE (CI 77163) , BLUE 1 LAKE (CI 42090) , CARMINE (CI 75470) , CHROMIUM HYDROXIDE GREEN (CI 77289) , CHROMIUM OXIDE GREENS (CI 77288) , FERRIC AMMONIUM FERROCYANIDE (CI 77510) , FERRIC FERROCYANIDE (CI 77510) , MANGANESE VIOLET (CI 77742) , ULTRAMARINES (CI 77007) , YELLOW 5 LAKE (CI 19140)]\n                <ILNILN41321>\n                  Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.\n              \n            ",
+      "rating": null,
+      "category": "palette",
+      "product_type": "eyeshadow",
+      "tag_list": [],
+      "created_at": "2016-10-02T01:32:55.068Z",
+      "updated_at": "2017-12-26T00:33:00.753Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/530.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/530/original/open-uri20171223-4-5v7061?1514062152",
+      "product_colors": [
+        {
+          "hex_value": "#2E355B",
+          "colour_name": "color 1"
+        },
+        {
+          "hex_value": "#ABA2AA",
+          "colour_name": "color 2"
+        },
+        {
+          "hex_value": "#61495D",
+          "colour_name": "color 3"
+        },
+        {
+          "hex_value": "#AB90A3",
+          "colour_name": "color 4"
+        },
+        {
+          "hex_value": "#937A87",
+          "colour_name": "color 5"
+        },
+        {
+          "hex_value": "#D2AEAA",
+          "colour_name": "color 6"
+        },
+        {
+          "hex_value": "#312D31",
+          "colour_name": "color 7"
+        },
+        {
+          "hex_value": "#E7D5C8",
+          "colour_name": "color 8"
+        },
+        {
+          "hex_value": "#6D4541",
+          "colour_name": "color 9"
+        },
+        {
+          "hex_value": "#EAB8A5",
+          "colour_name": "color 10"
+        },
+        {
+          "hex_value": "#704B47",
+          "colour_name": "color 11"
+        },
+        {
+          "hex_value": "#BA8980",
+          "colour_name": "color 12"
+        },
+        {
+          "hex_value": "#754F40",
+          "colour_name": "color 13"
+        },
+        {
+          "hex_value": "#EFC1AE",
+          "colour_name": "color 14"
         }
       ]
     }

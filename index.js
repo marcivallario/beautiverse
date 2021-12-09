@@ -4,9 +4,8 @@ let favoritesData;
 let results = document.getElementById('results'); // results div
 let form = document.getElementById('search-bar'); // search form
 let favoritesList = document.getElementById('favorites-list'); // favorites unordered list
-let main = document.getElementById('main');
 
-// Load featured products & persisting Favorites List
+// Load featured product, fetch Favorites List, load search bar
 document.addEventListener('DOMContentLoaded', () => {
     fetch('http://makeup-api.herokuapp.com/api/v1/products.json')
     .then(resp => resp.json())
@@ -33,8 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-//Building product cards
-
+//Building product cards & append to DOM
 function buildProductCard(product) {
     let card = document.createElement('div');
     let shadeNames = product.product_colors.map(shade => {
@@ -108,10 +106,9 @@ function getSearchResults(e) {
 
 function loadSearchResults(productArray) {
     productArray.forEach(product => buildProductCard(product))
-    main.style.height = '100%';
 }
 
-// Favoriting
+// Adding favorites
 function handleAddFavorite(event) {
     let chosenProduct = productData.find(product => parseInt(product.id) === parseInt(event.target.dataset.productId));
     let liList = Array.from(favoritesList.querySelectorAll('li'));
@@ -130,10 +127,13 @@ function addToFavorites(product) {
         },
         body: JSON.stringify(product)
     })
-    .then(renderFavorite(product))
+    .then(() => {
+        favoritesData.push(product);
+        renderFavorite(product)
+    })
 }
 
-// Favorites List
+// Loading favorites list
 function renderFavoritesList(favoritesListArr) {
     favoritesList.innerHTML = '';
     favoritesListArr.forEach(favorite => renderFavorite(favorite))
@@ -156,6 +156,7 @@ function renderFavorite(favorite) {
     }
 }
 
+// Deleting favorites
 function handleDelete(e) {
     fetch(`http://localhost:3000/favorites/${e.target.dataset.productId}`, {
         method: 'DELETE'
@@ -169,6 +170,7 @@ function handleDelete(e) {
     }
 }
 
+// Load clicked favorited item
 function loadFavoriteItem(e) {
     results.innerHTML='';
     const favoriteToLoad = favoritesData.find(product => parseInt(product.id) === parseInt(e.target.dataset.productId));
