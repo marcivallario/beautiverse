@@ -28,9 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="./src/search.png" alt="Search">
             </button>
         `
+        form.addEventListener('submit', getSearchResults)
     })
-
-    form.addEventListener('submit', getSearchResults)
 })
 
 //Building product cards
@@ -98,7 +97,6 @@ function getSearchResults(e) {
             matchingBrands.push(product)
         }
     })
-    console.log(matchingBrands);
     if (matchingBrands.length === 0) {
         results.innerHTML = '<h1>No products found!</h1>';
     } else {
@@ -161,6 +159,10 @@ function handleDelete(e) {
         method: 'DELETE'
     })
     e.target.parentElement.remove();
+    let cardsArr = Array.from(results.childNodes);
+    let matchingProduct = cardsArr.find(card => card.children[1].children[1].dataset.productId === e.target.dataset.productId);
+    matchingProduct.children[1].children[1].disabled = false;
+    matchingProduct.children[1].children[1].textContent = 'Favorite';
 }
 
 function loadFavoriteItem(e) {
