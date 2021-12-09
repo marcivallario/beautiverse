@@ -1,11 +1,12 @@
 let productData;
-let featuredProduct;
-let results = document.getElementById('results');
-let form = document.getElementById('search-bar');
-let favoritesList = document.getElementById('favorites-list');
-let currentProduct;
+let favoritesData;
 
-// Featured products & persisting Favorites List
+let results = document.getElementById('results'); // results div
+let form = document.getElementById('search-bar'); // search form
+let favoritesList = document.getElementById('favorites-list'); // favorites unordered list
+let sidebar = document.getElementById('sidebar');
+
+// Load featured products & persisting Favorites List
 document.addEventListener('DOMContentLoaded', () => {
     fetch('http://makeup-api.herokuapp.com/api/v1/products.json')
     .then(resp => resp.json())
@@ -14,18 +15,26 @@ document.addEventListener('DOMContentLoaded', () => {
         featuredProduct = data[Math.floor(Math.random() * data.length)]
         results.innerHTML = '';
         buildProductCard(featuredProduct);
+        
+        fetch('http://localhost:3000/favorites')
+        .then(resp => resp.json())
+        .then(favoritesListData => {
+            favoritesData = favoritesListData;
+            renderFavoritesList(favoritesData);
+        })
+        
+        form.innerHTML = `
+            <input id="search-field" type="text" placeholder="Search Brands..">
+            <button id="search-button" type="submit">
+                <img src="./src/search.png" alt="Search">
+            </button>
+        `
+        form.addEventListener('submit', getSearchResults)
     })
-
-    fetch('http://localhost:3000/favorites')
-    .then(resp => resp.json())
-    .then(favoritesListData => {
-        renderFavoritesList(favoritesListData)
-    })
-
-    form.addEventListener('submit', getSearchResults)
 })
 
 //Building product cards
+
 function buildProductCard(product) {
     let card = document.createElement('div');
     let shadeNames = product.product_colors.map(shade => {
@@ -33,7 +42,29 @@ function buildProductCard(product) {
     })
     shadeNames = shadeNames.join(', ');
     card.className = 'makeup-details';
-    card.innerHTML = `
+    const existingLi = document.querySelector(
+        `#favorites-list li[data-product-id="${product.id}"]`
+    )
+    if (existingLi) {
+        card.innerHTML = `
+        <div class='image-container'>
+            <img class='makeup-image' src='${product.api_featured_image}' />
+        </div>
+        <div class='makeup-text'>
+            <h2 class='makeup-name'>${product.name}</h2>
+            <button class="favorite-button" disabled="true" data-product-id="${product.id}">Added to Favorites</button>
+            <p>${product.description}</p>
+            <ul em class='product-description'>
+            <br>
+                <li>Price: ${(product.price_sign ? product.price_sign : '$')
+            } ${(parseFloat(product.price).toFixed(2))}</li>
+                <li>Available shades: ${shadeNames}</li>
+                <li>Buy at <a href=${product.product_link} target='_blank'>${product.brand}</a></li>
+            </ul>
+        </div>
+    `
+    } else {
+        card.innerHTML = `
         <div class='image-container'>
             <img class='makeup-image' src='${product.api_featured_image}' />
         </div>
@@ -44,16 +75,19 @@ function buildProductCard(product) {
             <ul em class='product-description'>
             <br>
                 <li>Price: ${(product.price_sign ? product.price_sign : '$')
-                } ${(parseFloat(product.price).toFixed(2))}</li>
+            } ${(parseFloat(product.price).toFixed(2))}</li>
                 <li>Available shades: ${shadeNames}</li>
                 <li>Buy at <a href=${product.product_link} target='_blank'>${product.brand}</a></li>
             </ul>
         </div>
     `
+    }
     results.append(card);
     let favoriteButtons = document.querySelectorAll('.favorite-button')
     favoriteButtons.forEach(button => button.addEventListener('click', handleAddFavorite));
+    console.log(sidebar.style.height);
 }
+
 // Loading Search Results
 function getSearchResults(e) {
     e.preventDefault();
@@ -65,7 +99,6 @@ function getSearchResults(e) {
             matchingBrands.push(product)
         }
     })
-    console.log(matchingBrands);
     if (matchingBrands.length === 0) {
         results.innerHTML = '<h1>No products found!</h1>';
     } else {
@@ -80,7 +113,6 @@ function loadSearchResults(productArray) {
 
 // Favoriting
 function handleAddFavorite(event) {
-    console.log('click');
     let chosenProduct = productData.find(product => parseInt(product.id) === parseInt(event.target.dataset.productId));
     let liList = Array.from(favoritesList.querySelectorAll('li'));
     if (!(liList.find(li => parseInt(li.dataset.productId) === chosenProduct.id))) {
@@ -112,16 +144,15 @@ function renderFavorite(favorite) {
         `#favorites-list li[data-product-id="${favorite.id}"]`
     )
     let li = existingLi || document.createElement('li');
-    li.innerHTML = `<button class="delete-button" data-product-id=${favorite.id}>x</button>${favorite.name}`;
+    li.innerHTML = `<button class="delete-button" data-product-id=${favorite.id}>x</button><p data-product-id=${favorite.id}> ${favorite.name}</p>`;
     li.dataset.productId = favorite.id;
     if (!existingLi) {
         favoritesList.append(li);
         let deleteButtons = document.querySelectorAll('.delete-button')
         deleteButtons.forEach(button => button.addEventListener('click', handleDelete));
         
-        let favoriteItems = document.querySelectorAll('li')
-        console.log(favoriteItems);
-        favoriteItems.forEach(item => item.addEventListener('click', loadFavoriteItem));
+        let favoriteItemsText = document.querySelectorAll('li > p')
+        favoriteItemsText.forEach(item => item.addEventListener('click', loadFavoriteItem));
     }
 }
 
@@ -130,10 +161,16 @@ function handleDelete(e) {
         method: 'DELETE'
     })
     e.target.parentElement.remove();
+    let cardsArr = Array.from(results.childNodes);
+    let matchingProduct = cardsArr.find(card => card.children[1].children[1].dataset.productId === e.target.dataset.productId);
+    if (matchingProduct) {
+        matchingProduct.children[1].children[1].disabled = false;
+        matchingProduct.children[1].children[1].textContent = 'Favorite';
+    }
 }
 
 function loadFavoriteItem(e) {
     results.innerHTML='';
-    let favoriteToLoad = productData.find(product => parseInt(product.id) === parseInt(e.target.dataset.productId));
+    const favoriteToLoad = favoritesData.find(product => parseInt(product.id) === parseInt(e.target.dataset.productId));
     buildProductCard(favoriteToLoad);
 }
