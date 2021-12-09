@@ -4,6 +4,7 @@ let favoritesData;
 let results = document.getElementById('results'); // results div
 let form = document.getElementById('search-bar'); // search form
 let favoritesList = document.getElementById('favorites-list'); // favorites unordered list
+let sidebar = document.getElementById('sidebar');
 
 // Load featured products & persisting Favorites List
 document.addEventListener('DOMContentLoaded', () => {
@@ -84,6 +85,7 @@ function buildProductCard(product) {
     results.append(card);
     let favoriteButtons = document.querySelectorAll('.favorite-button')
     favoriteButtons.forEach(button => button.addEventListener('click', handleAddFavorite));
+    console.log(sidebar.style.height);
 }
 
 // Loading Search Results
@@ -161,8 +163,10 @@ function handleDelete(e) {
     e.target.parentElement.remove();
     let cardsArr = Array.from(results.childNodes);
     let matchingProduct = cardsArr.find(card => card.children[1].children[1].dataset.productId === e.target.dataset.productId);
-    matchingProduct.children[1].children[1].disabled = false;
-    matchingProduct.children[1].children[1].textContent = 'Favorite';
+    if (matchingProduct) {
+        matchingProduct.children[1].children[1].disabled = false;
+        matchingProduct.children[1].children[1].textContent = 'Favorite';
+    }
 }
 
 function loadFavoriteItem(e) {
